@@ -59,3 +59,53 @@ body{
 .dados-right{
     flex: 2;
 }
+.dados-pessoais {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    padding: 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+}
+
+.informacao-funcionario {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+}
+
+.informacao-funcionario p {
+    background-color: #ccc;
+    line-height: 2;
+}
+.pequena {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.medio {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.grande {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.extra {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    width: 950px;
+    gap: 20px;
+}
